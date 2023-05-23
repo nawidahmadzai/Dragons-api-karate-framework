@@ -1,3 +1,4 @@
+@Smoke
 Feature: Generate valid Token
 Scenario: Create token with valid username and password
 Given url "https://tek-insurance-api.azurewebsites.net"

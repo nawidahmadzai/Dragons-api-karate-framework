@@ -28,7 +28,11 @@
 				<version>2.22.2</version>
 				<configuration>
 					<includes>
+<<<<<<< HEAD
 						<include>${runner}.java</include>
+=======
+						<include>SmokeRunner.java</include>
+>>>>>>> c57b2dcc7008019125454e0238b6de1627809d85
 					</includes>
 				</configuration>
 			</plugin>

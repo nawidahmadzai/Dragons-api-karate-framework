@@ -1,3 +1,4 @@
+@Smoke
 Feature: API Test Security Section
 
 Scenario: Create token with valid username and password
@@ -25,4 +26,4 @@ When method post
 Then status 400
 And print response
 And assert response.errorMessage == "Password Not Matched"
-And assert response.httpStatus == " BAD_REQUEST"
+And assert response.httpStatus == "BAD_REQUEST"
